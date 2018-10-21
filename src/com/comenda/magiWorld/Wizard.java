@@ -1,6 +1,6 @@
 package com.comenda.magiWorld;
 
-public class Wizard extends Character{
+public class Wizard extends AttackOfCharacter {
 
 
     @Override
