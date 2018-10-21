@@ -1,4 +1,15 @@
 package com.comenda.magiWorld;
 
-public class Wizard {
+public class Wizard extends Character{
+
+
+    @Override
+    public void basicAttack() {
+
+    }
+
+    @Override
+    public void specialAttack() {
+
+    }
 }
