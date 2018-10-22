@@ -12,4 +12,9 @@ public class Prowler extends  AttackOfCharacter{
     public void specialAttack() {
 
     }
+
+    @Override
+    public void warCry() {
+
+    }
 }

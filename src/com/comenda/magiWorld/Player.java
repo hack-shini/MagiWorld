@@ -54,6 +54,10 @@ public class Player extends Skills {
     // -------------- ALL OTHERS METHODS -----------
 
 
+    /**
+     * Choice skills of your Heros
+     */
+
     public void caracteristiques(){
 
         System.out.println("Veuillez choisir le niveau de votre personnage :");

@@ -5,4 +5,6 @@ public abstract class AttackOfCharacter {
     public abstract void basicAttack();
 
     public abstract void specialAttack();
+
+    public abstract void warCry();
 }
