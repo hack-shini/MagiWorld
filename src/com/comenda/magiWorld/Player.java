@@ -6,6 +6,7 @@ public class Player extends Skills {
     private int numberPlayer_One_Or_Two;
     private String numberOfPlayer;
     private int choice;
+    private int choiceHero;
 
     Scanner clavier = new Scanner(System.in);
 
@@ -23,26 +24,19 @@ public class Player extends Skills {
 
 
     public int getChoice() {
-        System.out.println("Veuillez choisir la classe de votre Héros : 1 - Guerrier, 2 - Rôdeur, 3 - Magicien");
-        int choice = clavier.nextInt();
-
-        switch (choice){
-            case 1:
-                Warrior warrior = new Warrior();
-                break;
-            case 2:
-                Prowler prowler = new Prowler();
-                break;
-            case 3:
-                Wizard wizzard = new Wizard();
-                break;
-        }
-
         return choice;
     }
 
     public void setChoice(int choice) {
         this.choice = choice;
+    }
+
+    public int getChoiceHero() {
+        return choiceHero;
+    }
+
+    public void setChoiceHero(int choiceHero) {
+        this.choiceHero = choiceHero;
     }
 
 
@@ -77,6 +71,28 @@ public class Player extends Skills {
         System.out.println("Veuillez choisir l'intelligence de votre personnage :");
         choice = clavier.nextInt();
         setIntelligence(choice);
+    }
+
+    public void choiceHero(){
+        System.out.println("Veuillez choisir la classe de votre Héros : 1 - Guerrier, 2 - Rôdeur, 3 - Magicien");
+        int choiceHero = clavier.nextInt();
+
+        switch (choiceHero){
+            case 1:
+                Warrior warrior = new Warrior();
+                setChoiceHero(choiceHero);
+                break;
+            case 2:
+                Prowler prowler = new Prowler();
+                setChoiceHero(choiceHero);
+                break;
+            case 3:
+                Wizard wizzard = new Wizard();
+                setChoiceHero(choiceHero);
+                break;
+        }
+
+
     }
 
     @Override
