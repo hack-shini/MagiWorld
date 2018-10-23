@@ -3,6 +3,7 @@ package com.comenda.magiWorld;
 import java.util.Scanner;
 
 public class Player extends Skills {
+    private int numberPlayer_One_Or_Two;
     private String numberOfPlayer;
     private int choice;
 
@@ -11,8 +12,9 @@ public class Player extends Skills {
 
     // ------ CONSTRUCTOR ----------
 
-    public Player(String numberOfPlayer) {
+    public Player(String numberOfPlayer, int numberPlayer_One_Or_Two) {
         this.numberOfPlayer = numberOfPlayer;
+        this.numberPlayer_One_Or_Two = numberPlayer_One_Or_Two;
     }
 
 
@@ -34,8 +36,8 @@ public class Player extends Skills {
             case 3:
                 Wizard wizzard = new Wizard();
                 break;
-
         }
+
         return choice;
     }
 
@@ -70,13 +72,21 @@ public class Player extends Skills {
 
         System.out.println("Veuillez choisir l'agilité de votre personnage :");
         choice = clavier.nextInt();
-        setAbility(choice);
+        setAgility(choice);
 
         System.out.println("Veuillez choisir l'intelligence de votre personnage :");
         choice = clavier.nextInt();
         setIntelligence(choice);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Joueur " + numberPlayer_One_Or_Two +
+                ", mon niveau est de " + getLevel() +
+                ", je possède " + getLife() + " de vitalité " +
+                ", ma force est de "+ getStrength()+
+                ", mon agilité est de "+ getAgility()+
+                ", mon intelligence est de "+ getIntelligence()+" !"+
+                '}';
+    }
 }

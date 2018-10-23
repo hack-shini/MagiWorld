@@ -28,11 +28,15 @@ public class main {
         System.out.println();
         System.out.println("Bonne bataille et amusez vous !");
 
-        Player player1 = new Player("Création du joueur 1");
+        Player player1 = new Player("Création du joueur 1",1);
 
         System.out.println(player1.getNumberOfPlayer());
         System.out.println(player1.getChoice());
         player1.caracteristiques();
+        System.out.println(player1.toString());
+
+
+
 
 
     }

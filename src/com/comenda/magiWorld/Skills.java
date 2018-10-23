@@ -5,8 +5,10 @@ public class Skills {
     private int level;
     private int life;
     private int strength;
-    private int ability;
+    private int agility;
     private int intelligence;
+
+
 
     public int getLevel() {
         return level;
@@ -17,12 +19,9 @@ public class Skills {
     }
 
     public int getLife() {
-        return life;
+        return getLevel() * 5;
     }
 
-    public void setLife(int life) {
-        this.life = life;
-    }
 
     public int getStrength() {
         return strength;
@@ -32,12 +31,12 @@ public class Skills {
         this.strength = strength;
     }
 
-    public int getAbility() {
-        return ability;
+    public int getAgility() {
+        return agility;
     }
 
-    public void setAbility(int ability) {
-        this.ability = ability;
+    public void setAgility(int ability) {
+        this.agility = ability;
     }
 
     public int getIntelligence() {

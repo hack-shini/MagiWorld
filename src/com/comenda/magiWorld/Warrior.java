@@ -14,6 +14,6 @@ public class Warrior  extends AttackOfCharacter{
 
     @Override
     public void warCry() {
-
+        System.out.println("Woarg !!!! Je suis le guerrier du ");
     }
 }

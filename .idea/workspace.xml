@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="01c9cd95-8208-4734-bcdc-987f7c6d4ab8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/AttackOfCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/AttackOfCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/Prowler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/Prowler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comenda/magiWorld/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comenda/magiWorld/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +19,10 @@
     <session id="-119660894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,25 +39,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2574" />
-          <entry key="txt" value="478" />
+          <entry key="java" value="3132" />
+          <entry key="txt" value="555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2574" />
-          <entry key="PLAIN_TEXT" value="478" />
+          <entry key="JAVA" value="3132" />
+          <entry key="PLAIN_TEXT" value="555" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="310">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,16 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -92,17 +83,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
@@ -138,11 +127,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,13 +159,13 @@
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Character.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Characteristics.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/StoryBoard.java" />
-        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/main.java" />
-        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java" />
-        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/AttackOfCharacter.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Wizard.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Prowler.java" />
         <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java" />
+        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/comenda/magiWorld/main.java" />
       </list>
     </option>
   </component>
@@ -211,9 +204,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,14 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540237020587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajout d'une méthode &quot;warCry&quot; dans l'interface AttackOfCharacter">
+      <created>1540237400916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540237400916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,7 +322,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,68 +342,18 @@
     <MESSAGE value="Ajout d'une classe Player pour la création de joueur, modification de la class Character -&gt; AttackOfCharacter qui ne contient plus que les atk, ajout d'une classe Skills qui contient les compétences" />
     <MESSAGE value="Classe Plaer -&gt; Ajout de la création du joueur 1 et 2" />
     <MESSAGE value="Implémentation de la class pour choisir la classe de son Héros&#10;Implémentation de la class pour le choix des caractèristiques" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implémentation de la class pour choisir la classe de son Héros&#10;Implémentation de la class pour le choix des caractèristiques" />
+    <MESSAGE value="Ajout d'une méthode &quot;warCry&quot; dans l'interface AttackOfCharacter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'une méthode &quot;warCry&quot; dans l'interface AttackOfCharacter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MagiWorld.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/StoryBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/AttackOfCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,8 +373,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Skills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comenda/magiWorld/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
